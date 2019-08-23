@@ -1,0 +1,46 @@
+header{
+  display: block;
+}
+#index{
+background-image: url(../Imagens/capa.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  }
+.index-conteudo{
+  text-align: center;
+}
+#voltar{
+  font-size: 30px;
+}
+#topo{
+  font-size: 20px;
+}
+nav{
+  background-color: lightgrey;
+}
+#ADS{
+  background-image: url(../Imagens/ADS.jpg);  
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#cardADS{
+  background-color: rgba(169, 169, 169, 0.9);
+  color: black;
+}
+
+
+#dazaranha{
+  background-image: url(../Imagens/Dazaranha/show.jpg);  
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+#games{ 
+  background-repeat: no-repeat;
+  background-color: black;
+  color: white;
+}
+

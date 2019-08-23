@@ -4,9 +4,12 @@
 <head>
   <meta charset="utf-8" />
   <title>Séries</title>
-  <link href="main.css" rel="stylesheet" type="text/css">
+  <link href="css/main.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
   <style>
+    #cabecalho{
+      background-color: grey;
+    }
     .ImagensTemporadas {
       text-align: center;
     }
@@ -63,7 +66,7 @@
               <a class="nav-link" href="games.html">Games</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="esporte.html">Esportes</a>
+              <a class="nav-link" href="esports.html">Esports</a>
             </li>
           </ul>
         </div>
@@ -79,7 +82,7 @@
   <div style="text-align:center">
     <img id="LogoSerie" src="Imagens/Casa De Papel/teste3.jpeg" width="500" height="500" />
   </div>
-  <br>  
+  <br>
   <br>
   <p style="text-align: justify"> <b>La casa de papel</b> é uma série de televisão espanhola do gênero de filmes de
     assalto. Criada por Álex Pina para a rede televisiva espanhola Antena 3, a série estreou em 2 de maio de 2017, sendo
@@ -96,12 +99,14 @@
     <img src="Imagens/Casa De Papel/LaCasaDePapel-Parte2.jpg" width="150" height="150" />
     <img src="Imagens/Casa De Papel/LaCasaDePapel-Parte3.jpg" width="150" height="150" />
   </div>
-
-  <div class="Temporadas">
+  <br>
+  <div class="Temporadas form-inline">
     <!-- Primeira Temporada -->
     <table border="1" style="text-align:center" align="center">
       <thead>
-        <h2>Temporada 1</h2>
+        <tr>
+          <th colspan="4" id="cabecalho"> 1ª Temporada
+        </tr>
         <tr>
           <th> Episódios</th>
           <th> Titulo Episódio</th>
@@ -151,7 +156,9 @@
     <!-- Segunda Temporada -->
     <table border="1" style="text-align:center" align="center">
       <thead>
-        <h2>Temporada 2</h2>
+        <tr>
+          <th colspan="4" id="cabecalho"> 2ª Temporada
+        </tr>
         <tr>
           <th> Episódios</th>
           <th> Titulo Episódio</th>
@@ -182,6 +189,18 @@
           <td>6
           <td>"Bella ciao"
         </tr>
+        <tr>
+          <td>-
+          <td>-
+        </tr>
+        <tr>
+          <td>-
+          <td>-
+        </tr>
+        <tr>
+          <td>-
+          <td>-
+        </tr>
       </tbody>
     </table>
 
@@ -189,7 +208,9 @@
     <!-- Terceira Temporada -->
     <table border="1" style="text-align:center" align="center">
       <thead>
-        <h2>Temporada 3</h2>
+        <tr>
+          <th colspan="4" id="cabecalho"> 3ª Temporada
+        </tr>
         <tr>
           <th> Episódios</th>
           <th> Titulo Episódio</th>
@@ -228,12 +249,16 @@
           <td>8
           <td>"À deriva"
         </tr>
+        <tr>
+          <td>-
+          <td>-
+        </tr>
       </tbody>
     </table>
   </div>
   <footer>
     <br>
-    <a id="topo" href="#header">Voltar ao topo</a>
+    <!-- <a id="topo" href="#header">Voltar ao topo</a> -->
   </footer>
 </body>
 
