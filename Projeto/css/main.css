@@ -44,3 +44,16 @@ nav{
   color: white;
 }
 
+.Filmes{
+  background-image: url(../Imagens/Pixels/pacman.jpg);
+  background-size: 100%;  
+  background-repeat: no-repeat;
+  color: white;
+}
+#card{
+  background-image: url(../Imagens/Pixels/LogoFilme.jpg);  
+  background-repeat: no-repeat; 
+  background-size: cover;  
+  background-position: top
+}
+
