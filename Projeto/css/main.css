@@ -57,3 +57,30 @@ nav{
   background-position: top
 }
 
+a:hover{
+  background-color: rgb(134, 134, 134);
+}
+
+#corpoLogin{
+  background-image: url(../Imagens/login.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#cardLogin{
+  background-color: white;    
+  position: absolute;
+  left: 40%;
+  top: 30%;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+}
+.botaoLogin{
+  margin-top: 40px;
+  text-align:center;
+}
+.Logo-Menor {
+  text-align: center;
+}
+
+
+
