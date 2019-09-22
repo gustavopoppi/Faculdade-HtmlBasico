@@ -8,13 +8,15 @@
     <link href="main.css" rel="stylesheet" type="text/css">
 
     <script lang="javascript" type="text/javascript">
-        function verificaDados(){
-            if (form.login.value == "a"){
+        function verificaDados() {
+            if (form.login.value == "a") {
                 alert("Login efetuado com sucesso");
-            }else{
+                window.open('Index.html');
+            } else {
                 alert("Dados errados");
             }
         };
+
     </script>
 </head>
 
@@ -35,13 +37,14 @@
                 </tr>
                 <tr>
                     <td>
-                    <div class="Logo-Menor"><img src="Imagens/User.png" width="25px" /></div>
+                        <div class="Logo-Menor"><img src="Imagens/User.png" width="25px" /></div>
                     <td><input type="password" placeholder="Digite sua senha" name="senha"></td>
                 </tr>
                 <tr>
                     <div class="botaoLogin">
                         <td></td>
-                        <td style="text-align: center"><input type="submit" name="Logar" value="Logar" onclick="verificaDados()" />
+                        <td style="text-align: center"><input type="submit" name="Logar" value="Logar"
+                                onclick="verificaDados()" />
                             <input type="reset" name="Limpar" value="Limpar" /></td>
                     </div>
                 </tr>
