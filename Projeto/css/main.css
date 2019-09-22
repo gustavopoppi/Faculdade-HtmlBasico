@@ -81,5 +81,18 @@ a:hover{
   text-align: center;
 }
 
+/* Css formulário */
+
+#corpoFormulario{
+  background-image: url(../Imagens/Formulário.jpg);  
+}
+#form2{
+  background-color: white;    
+  position: absolute;
+  left: 38%;
+  top: 30%;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+}
 
 
