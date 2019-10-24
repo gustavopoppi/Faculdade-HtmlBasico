@@ -17,7 +17,7 @@ background-image: url(../Imagens/capa.jpg);
   font-size: 20px;
 }
 nav{
-  background-color: lightgrey;
+  
 }
 #ADS{
   background-image: url(../Imagens/ADS.jpg);  
@@ -49,8 +49,25 @@ nav{
   background-repeat: no-repeat;
   color: white;
 }
+
+#Filmes2{
+  /*background-image: url(../Imagens2/ReiLeão/background.jpg);
+  background-size: 100%;  
+  background-repeat: no-repeat;*/
+  color: white;
+}
+
 #card{
+  color: white;
+  margin-top: 3%;
   background-image: url(../Imagens/Pixels/LogoFilme.jpg);  
+  background-repeat: no-repeat; 
+  background-size: cover;  
+  background-position: top
+}
+
+#card2{
+  background-image: url(../Imagens2/ReiLeão/background.jpg);  
   background-repeat: no-repeat; 
   background-size: cover;  
   background-position: top
@@ -95,4 +112,10 @@ a:hover{
   padding: 5px 10px;
 }
 
+#ff{
+  background-image: url(../Imagens2/FooFighters/background.jpg);  
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
 
