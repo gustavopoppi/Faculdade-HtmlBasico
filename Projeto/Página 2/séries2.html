@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <link href="../css/main.css" rel="stylesheet" type="text/css">
+    <link href="../css/bootstrap.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
         crossorigin="anonymous">
     <title>Séries 2</title>
@@ -38,32 +39,18 @@
 
 <body id="series2">
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-            <div class="container">
-                <a class="navbar-brand" href="login.html">Login</a>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="IndexPag2.html">Página 2</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="musica2.html">Música</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="filmes2.html">Filmes</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="séries2.html">Séries</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="games2.html">Games</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="esports2.html">Esports</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+        <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
+            <section class="dropdown">
+                <button class="dropbtn">Menu</button>
+                <section class="dropdown-content">
+                    <a class="nav-link" href="IndexPag2.html">Home</a>
+                    <a class="nav-link" href="filmes2.html">Filmes</a>
+                    <!-- <a class="nav-link" href="musica2.html">Música</a> -->
+                    <a class="nav-link" href="séries2.html">Séries</a>
+                    <!-- <a class="nav-link" href="games2.html">Games</a>
+                    <a class="nav-link" href="esports2.html">Esports</a> -->                   
+                </section>
+            </section>
         </nav>
     </header>
 
@@ -71,9 +58,9 @@
     <br>
     <br>
     <br>
-    <div style="text-align:center">
+    <section style="text-align:center">
         <img id="LogoSerie" src="../Imagens2/Chernobyl/Chernobyl.jpg" width="60%" height="500" />
-    </div>
+    </section>
     <br>
     <br>
     <p style="text-align: justify"> <b>Chernobyl </b> é uma minissérie de televisão de drama criada por Craig Mazin.[1]
@@ -85,14 +72,14 @@
     </p>
 
     <br>
-    <div class="ImagensTemporadas">
+    <section class="ImagensTemporadas">
         <h2> Imagens da temporada </h2>
         <img src="../Imagens2/Chernobyl/img1.jpg" width="150" height="150" />
         <img src="../Imagens2/Chernobyl/img2.jpg" width="150" height="150" />
         <img src="../Imagens2/Chernobyl/img3.jpg" width="150" height="150" />
-    </div>
+    </section>
     <br>
-    <div class="Temporadas form-inline">
+    <section class="Temporadas form-inline">
         <!-- Primeira Temporada -->
         <table border="1" style="text-align:center" align="center">
             <thead>
@@ -127,10 +114,9 @@
                 </tr>
             </tbody>
         </table>
-    </div>
+    </section>
     <footer>
-        <br>
-        <p> Gustavo Melo Poppi - 1942269-2</p>
+        <p> Página desenvolvida por: Gustavo Melo Poppi - 1942269-2</p>
         <p> Turma: Análise e Desenvolvimento 2º Semestre</p>
     </footer>
 

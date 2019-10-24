@@ -1,6 +1,16 @@
 header{
   display: block;
 }
+
+footer{
+  margin-top: 5%;
+  margin-left: 1%;
+}
+footer p{
+  text-align: justify;
+  font-size: 12px;
+}
+
 #index{
 background-image: url(../Imagens/capa.jpg);
   background-size: 100%;
@@ -43,21 +53,21 @@ nav{
   color: white;
 }
 
-.Filmes{
+.BodyFilmePixel{
   background-image: url(../Imagens/Pixels/pacman.jpg);
   background-size: 100%;  
   background-repeat: no-repeat;
   color: white;
 }
-
-#Filmes2{
-  /*background-image: url(../Imagens2/ReiLeão/background.jpg);
+.BodyFilmeReiLeao{
+  background-color: black;
+  /* background-image: url(../Imagens2/ReiLeão/background.jpg); 
   background-size: 100%;  
   background-repeat: no-repeat;*/
-  color: white;
+  color: white; 
 }
 
-#card{
+#cardPixel{
   color: white;
   margin-top: 3%;
   background-image: url(../Imagens/Pixels/LogoFilme.jpg);  
@@ -66,11 +76,11 @@ nav{
   background-position: top
 }
 
-#card2{
-  background-image: url(../Imagens2/ReiLeão/background.jpg);  
+#cardReiLeao{
+  background-image: url(../Imagens2/ReiLeão/section1.jpg);  
   background-repeat: no-repeat; 
   background-size: cover;  
-  background-position: top
+  background-position: top;
 }
 
 a:hover{
