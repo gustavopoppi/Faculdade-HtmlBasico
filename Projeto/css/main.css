@@ -2,6 +2,12 @@ header{
   display: block;
 }
 
+aside{
+  
+  width:150px;
+  padding: 0.5%;
+}
+
 footer{
   margin-top: 5%;
   margin-left: 1%;
