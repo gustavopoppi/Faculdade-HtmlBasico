@@ -18,7 +18,7 @@ footer p{
 }
 
 #index{
-background-image: url(../Imagens/capa.jpg);
+  background-image: url(../Imagens/capa.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -73,6 +73,11 @@ nav{
   color: white; 
 }
 
+.BodyCsgo{
+  background-color: black;
+  color: white; 
+}
+
 #cardPixel{
   color: white;
   margin-top: 3%;
@@ -84,6 +89,13 @@ nav{
 
 #cardReiLeao{
   background-image: url(../Imagens2/ReiLeão/section1.jpg);  
+  background-repeat: no-repeat; 
+  background-size: cover;  
+  background-position: top;
+}
+
+#cardCsgo{
+  background-image: url(../Imagens2/Csgo/background.jpg);  
   background-repeat: no-repeat; 
   background-size: cover;  
   background-position: top;
