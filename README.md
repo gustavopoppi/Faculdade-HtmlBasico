@@ -1,2 +1,2 @@
 # Faculdade-HtmlBasico
-Matéria Desenvolvimento de aplicações, onde estamos mexendo com o básico de HTML/CSS/JS.
+Matéria Desenvolvimento de aplicações, aprendizado sobre HTML/CSS/JS.
